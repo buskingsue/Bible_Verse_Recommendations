@@ -33,6 +33,10 @@
    - 상위 3개 구절을 추천하여 UI에 표시
 
 ---
+## word_cloud
+<img src="./images/word_cloud.png" width="70%" alt="Word Cloud">
+
+---
 
 ## 🖥 실행 방법
 ### 1️⃣ 필수 라이브러리 설치
