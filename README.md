@@ -40,10 +40,30 @@
 
 ## 🖥 실행 방법
 ### 1️⃣ 필수 라이브러리 설치
+
+---
+###  파이썬 버전 
+- Python 3.13.14( 파이썬 버전 명시해야 함)
+---
+## bible requirements.txt 패키지 설치 문제
+
+- 버전에 따라 패키지도 달라짐
+- 파이썬 패키지 수동 설치 마우스 클릭(파이참 사용)
+---
+## 자바설치
+https://www.oracle.com/java/technologies/downloads/#jdk26-windows
+
+---
 ```bash
+# 패키지 파일 묶음 설치
 pip install -r requirements.txt
 ```
+---
 
+```bash
+# 사이킷 런 설치
+pip install scikit-learn
+```
 ### 2️⃣ 실행
 ```bash
 python app.py
