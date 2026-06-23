@@ -33,7 +33,6 @@
 
 import sys
 import pandas as pd
-import pickle
 import numpy as np
 from PyQt5.QtWidgets import QWidget, QApplication, QLabel
 from PyQt5.QtGui import QPixmap
