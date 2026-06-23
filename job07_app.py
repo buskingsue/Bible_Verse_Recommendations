@@ -43,7 +43,7 @@ from gensim.models import Word2Vec
 from scipy.io import mmread  # 희소 행렬 로드
 import pickle  # 객체 직렬화
 import os
-
+# 💡 핵심: 실행하는 모니터의 DPI 배율에 맞게 UI 크기를 자동 조절하도록 강제 설정
 os.environ["QT_AUTO_SCREEN_SCALE_FACTOR"] = "1"
 # ✅ UI 파일 로드
 from_window = uic.loadUiType('./Word_recommendation.ui')[0]
