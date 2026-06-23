@@ -42,7 +42,9 @@ from konlpy.tag import Okt
 from gensim.models import Word2Vec
 from scipy.io import mmread  # 희소 행렬 로드
 import pickle  # 객체 직렬화
+import os
 
+os.environ["QT_AUTO_SCREEN_SCALE_FACTOR"] = "1"
 # ✅ UI 파일 로드
 from_window = uic.loadUiType('./Word_recommendation.ui')[0]
 
