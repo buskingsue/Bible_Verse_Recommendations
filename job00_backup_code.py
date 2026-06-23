@@ -10,9 +10,9 @@ from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.metrics.pairwise import cosine_similarity
 import numpy as np
 
-# 🔹 1. CSV 데이터 불러오기
-bible_file = "./data/merged_bible (2).csv"  # 성경 데이터 파일
-stopwords_file = "./StopWord/stopwords.csv"  # 불용어 파일
+# 🔹 1. CSV 데이터 불러오기(윈도우 사용시 경로 설정)
+bible_file = "C:/workspace/bible/data/merged_bible.csv"  # 성경 데이터 파일
+stopwords_file = "C:/workspace/bible/StopWord/stopwords.csv"  # 불용어 파일
 
 df = pd.read_csv(bible_file)
 

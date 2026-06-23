@@ -5,7 +5,7 @@ import numpy as np
 
 
 # 🔹 데이터 파일 경로
-bible_file = "./data/merged_bible (2).csv"  # 성경 데이터 파일
+bible_file = "./data/merged_bible.csv"  # 성경 데이터 파일
 stopwords_file = "./StopWord/stopwords.csv"  # 불용어 파일
 
 # 🔹 CSV 데이터 불러오기
